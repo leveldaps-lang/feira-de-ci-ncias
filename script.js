@@ -258,7 +258,7 @@ function generateResponse(text) {
         message === "ia"
     ) {
 
-        return "A Inteligência Artificial é uma tecnologia que permite aos computadores analisar informações, reconhecer padrões e realizar tarefas que normalmente exigiriam inteligência humana. 🤖";
+        return "A Inteligência Artificial é uma tecnologia que permite aos computadores analisar informações, reconhecer padrões e realizar tarefas que normalmente exigiriam inteligência humana. ";
 
     }
 
@@ -272,7 +272,7 @@ function generateResponse(text) {
         message.includes("feira")
     ) {
 
-        return "Nossa apresentação tem como objetivo mostrar, de uma forma prática e interativa, como a Inteligência Artificial pode conversar e interagir com as pessoas. 🔬💜";
+        return "Nossa apresentação tem como objetivo mostrar, de uma forma prática e interativa, como a Inteligência Artificial pode conversar e interagir com as pessoas.";
 
     }
 
@@ -289,7 +289,7 @@ function generateResponse(text) {
         message.includes("bom trabalho")
     ) {
 
-        return "Fico muito feliz que você tenha gostado! Agora queremos saber uma coisa importante: de 0 a 10, que nota você daria para nossa apresentação? ⭐";
+        return "Fico muito feliz que você tenha gostado! Agora queremos saber uma coisa importante: de 0 a 10, que nota você daria para nossa apresentação? ";
 
     }
 
@@ -301,7 +301,7 @@ function generateResponse(text) {
         message.includes("como voce funciona")
     ) {
 
-        return "Nesta demonstração, minhas respostas foram programadas usando JavaScript. Eu analiso o que você escreveu, identifico algumas palavras e escolho uma resposta relacionada. 🤖";
+        return "Nesta demonstração, minhas respostas foram programadas usando JavaScript. Eu analiso o que você escreveu, identifico algumas palavras e escolho uma resposta relacionada.";
 
     }
 
@@ -313,7 +313,7 @@ function generateResponse(text) {
         message.includes("colegio")
     ) {
 
-        return "Nós somos o 3º Ano 2 e estamos participando da Feira de Ciências. 📚🔬 Nosso objetivo é apresentar a tecnologia de uma maneira simples, divertida e interativa.";
+        return "Nós somos o 3º Ano 2 e estamos participando da Feira de Ciências.  Nosso objetivo é apresentar a tecnologia de uma maneira simples, divertida e interativa.";
 
     }
 
@@ -326,7 +326,7 @@ function generateResponse(text) {
         message.includes("valeu")
     ) {
 
-        return "Eu que agradeço pela visita!  Esperamos que você tenha gostado da nossa apresentação. Não esqueça de deixar sua nota! ⭐";
+        return "Eu que agradeço pela visita!  Esperamos que você tenha gostado da nossa apresentação. Não esqueça de deixar sua nota!";
 
     }
 
@@ -342,7 +342,7 @@ function generateResponse(text) {
         message.includes("como")
     ) {
 
-        return "Essa é uma pergunta interessante! 🤔 Eu sou um chatbot demonstrativo da nossa feira, então meu conhecimento é limitado. Mas posso conversar com você sobre Inteligência Artificial, tecnologia e sobre o nosso projeto.";
+        return "Essa é uma pergunta interessante! Eu sou um chatbot demonstrativo da nossa feira, então meu conhecimento é limitado. Mas posso conversar com você sobre Inteligência Artificial, tecnologia e sobre o nosso projeto.";
 
     }
 
@@ -426,7 +426,7 @@ stars.forEach(function (star) {
         setTimeout(function () {
 
             const response =
-                `Muito obrigado pela sua avaliação! 💜 Você deu nota ${value} de 10 para nossa apresentação. Sua opinião é muito importante para o 3º Ano 2!`;
+                `Muito obrigado pela sua avaliação! Você deu nota ${value} de 10 para nossa apresentação. Sua opinião é muito importante para o 3º Ano 2!`;
 
             addBotMessage(response);
 
