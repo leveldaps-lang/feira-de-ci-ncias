@@ -289,7 +289,7 @@ function generateResponse(text) {
         message.includes("bom trabalho")
     ) {
 
-        return "Fico muito feliz que você tenha gostado! 😄 Agora queremos saber uma coisa importante: de 0 a 10, que nota você daria para nossa apresentação? ⭐";
+        return "Fico muito feliz que você tenha gostado! Agora queremos saber uma coisa importante: de 0 a 10, que nota você daria para nossa apresentação? ⭐";
 
     }
 
@@ -326,7 +326,7 @@ function generateResponse(text) {
         message.includes("valeu")
     ) {
 
-        return "Eu que agradeço pela visita! 💜 Esperamos que você tenha gostado da nossa apresentação. Não esqueça de deixar sua nota! ⭐";
+        return "Eu que agradeço pela visita!  Esperamos que você tenha gostado da nossa apresentação. Não esqueça de deixar sua nota! ⭐";
 
     }
 
@@ -351,13 +351,13 @@ function generateResponse(text) {
 
     const responses = [
 
-        "Interessante! 😄 Continue conversando comigo. Quero saber o que você achou da nossa apresentação!",
+        "Interessante!  Continue conversando comigo. Quero saber o que você achou da nossa apresentação!",
 
-        "Entendi! 🤖 Você pode me perguntar sobre Inteligência Artificial, tecnologia ou sobre o nosso projeto.",
+        "Entendi!  Você pode me perguntar sobre Inteligência Artificial, tecnologia ou sobre o nosso projeto.",
 
-        "Legal! 💜 Estamos demonstrando como um chatbot consegue interagir com visitantes.",
+        "Legal!  Estamos demonstrando como um chatbot consegue interagir com visitantes.",
 
-        "Boa pergunta! 😄 Continue conversando comigo para conhecer melhor nosso projeto."
+        "Boa pergunta!  Continue conversando comigo para conhecer melhor nosso projeto."
 
     ];
 
