@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chat 3º Ano 2 | Feira de Ciências</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Efeitos do fundo -->
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <main class="chat-container">
+
+        <!-- CABEÇALHO -->
+        <header class="chat-header">
+
+            <div class="profile">
+
+                <div class="bot-avatar">
+                    <span>3º2</span>
+                </div>
+
+                <div>
+                    <h1>Chat do 3º Ano 2</h1>
+
+                    <div class="status">
+                        <span></span>
+                        Online
+                    </div>
+                </div>
+
+            </div>
+
+            <button
+                class="sound-button"
+                id="soundButton"
+                title="Ativar ou desativar voz"
+            >
+                🔊
+            </button>
+
+        </header>
+
+
+        <!-- ÁREA DAS MENSAGENS -->
+        <section class="chat-area" id="chatArea">
+
+            <div class="message bot-message">
+
+                <div class="avatar-small">
+                    🤖
+                </div>
+
+                <div class="message-content">
+
+                    <div class="message-bubble">
+
+                        <p>
+                            Olá! 👋
+                        </p>
+
+                        <p>
+                            Eu sou o <strong>Chat do 3º Ano 2</strong>.
+                        </p>
+
+                        <p>
+                           Este é um chatda Feira de Ciências!
+                        </p>
+
+                        <p>
+                            <strong>O que você achou da nossa apresentação?</strong>
+                        </p>
+
+                    </div>
+
+                    <span class="time">
+                        agora
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AVALIAÇÃO -->
+        <section class="rating-area" id="ratingArea">
+
+            <h2>
+                ⭐ Avalie nossa apresentação
+            </h2>
+
+            <p>
+                Escolha uma nota de 0 a 10
+            </p>
+
+            <div class="stars" id="stars">
+
+                <button data-value="1">★</button>
+                <button data-value="2">★</button>
+                <button data-value="3">★</button>
+                <button data-value="4">★</button>
+                <button data-value="5">★</button>
+                <button data-value="6">★</button>
+                <button data-value="7">★</button>
+                <button data-value="8">★</button>
+                <button data-value="9">★</button>
+                <button data-value="10">★</button>
+
+            </div>
+
+            <div id="selectedRating" class="selected-rating">
+                Nenhuma nota selecionada
+            </div>
+
+        </section>
+
+
+        <!-- CAMPO DE MENSAGEM -->
+        <footer class="input-area">
+
+            <button
+                class="mic-button"
+                id="micButton"
+                title="Falar com o chatbot"
+            >
+                🎤
+            </button>
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Digite sua mensagem..."
+                autocomplete="off"
+            >
+
+            <button
+                class="send-button"
+                id="sendButton"
+                title="Enviar mensagem"
+            >
+                ➤
+            </button>
+
+        </footer>
+
+
+        <div class="footer">
+            Feira de Ciências 3º Ano 2
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
